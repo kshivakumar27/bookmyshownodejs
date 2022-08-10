@@ -14,8 +14,6 @@ const URL = "mongodb+srv://shivakumark:Test1234@cluster0.kot9grj.mongodb.net/?re
 const DB = "bookmyshow";
 
 
-require('dotenv').config()
-
 
 app.use(cors())
 app.use(express.json());
