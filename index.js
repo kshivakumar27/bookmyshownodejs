@@ -14,8 +14,44 @@ const URL = "mongodb+srv://shivakumark:Test1234@cluster0.kot9grj.mongodb.net/?re
 const DB = "bookmyshow";
 
 
+const bcrypt = require("bcryptjs");
+const nodemailer = require('nodemailer');
+const jwt = require("jsonwebtoken");
+require('dotenv').config()
+
+
 app.use(cors())
 app.use(express.json());
+
+
+
+
+function generateUrl() {
+    var rand = "";
+    var char = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890";
+    var charlen = char.length;
+
+    for (var i = 0; i < 5; i++) {
+        rand += char.charAt(
+            Math.floor(Math.random() * charlen)
+        );
+    }
+    return rand;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
