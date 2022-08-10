@@ -1,1 +1,2 @@
-# bookmyshownodejs
+# MernBookmyshowBackend
+MernBookmyshowBackend Application
