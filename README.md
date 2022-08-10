@@ -1,2 +1,0 @@
-# MernBookmyshowBackend
-MernBookmyshowBackend Application
