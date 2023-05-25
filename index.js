@@ -7,7 +7,7 @@ const mongodb = require("mongodb");
 const bcrypt = require("bcryptjs");
 const jwt =require("jsonwebtoken");
 
-//const URL = "mongodb+srv://shivakumark:Test1234@cluster0.kot9grj.mongodb.net/?retryWrites=true&w=majority";
+const URL = "mongodb+srv://shivakumark:Test1234@cluster0.kot9grj.mongodb.net/?retryWrites=true&w=majority";
 //const URL = "mongodb+srv://shivakumark:Test1234@cluster0.kot9grj.mongodb.net/bookmyshow";
 //const URL = "mongodb+srv://shivakumark:Test1234@cluster6.pzdxs.mongodb.net/test";
 //const URL = "mongodb+srv://shivakumark:Test1234@cluster6.pzdxs.mongodb.net/?retryWrites=true&w=majority";
